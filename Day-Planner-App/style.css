@@ -1,0 +1,88 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 34px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: overline solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(245, 195, 14, 0.765625) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+textarea {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.info {
+  white-space: pre-line;
+}
+
+.row {
+  white-space: pre-line;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.col-md-8 {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.saveButton {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.saveButton i:hover {
+  font-size: 50px;
+  transition: all 0.3s ease-in;
+}
+
+.past {
+  background-color: #cfc0c0;
+  color: white;
+}
+
+.current {
+  background-color: #dd5048;
+  color: white;
+}
+
+.future {
+  background-color: #39f739;
+  color: white;
+}
